@@ -1,3 +1,5 @@
+
+// vue3版本必须加后缀名
 import login from '/src/view/login.vue'
 const allRouter = [
     {

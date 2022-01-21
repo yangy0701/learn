@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 import { resolve } from "path";
+
+//在vite中提供对vue文件的支持
 import vue from '@vitejs/plugin-vue'
 
 

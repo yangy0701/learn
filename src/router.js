@@ -1,5 +1,6 @@
-
+//引入路由文件
 import  allRouter  from "./router/router";
+
 import {createRouter,createWebHashHistory} from 'vue-router';
 const router  = createRouter({
     history:createWebHashHistory(),

@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+}
+html  body{
+  margin:0;
+  padding:0;
+  font-size: 16px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.resolve{
+  text-align: left;
+  margin-left:40px;
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+}
+.item{
+  margin-top:10px;
+  margin-left:15px;
+}

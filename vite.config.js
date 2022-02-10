@@ -13,7 +13,15 @@ export default defineConfig({
   plugins:[vue()],
   resolve:{
     alias:{
-      "/@/": pathResolve("src"),
+      "/@": pathResolve("src"),
+    }
+  },
+  css: {
+    /* CSS 预处理器 */
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "/@/style/index.scss";`
+      }
     }
   },
   server: {
